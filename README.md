@@ -14,7 +14,7 @@ This project will be utilizing CheapShark's public API found at https://apidocs.
 
 
 JSON Snippet:
-`{
+```{
     "info": {
         "title": "Front Mission Evolved",
         "steamAppID": "43000"
@@ -53,7 +53,8 @@ JSON Snippet:
             "savings": "0.000000"
         }
     ]
-}`
+}```
+
 
 ## Wireframes
 
