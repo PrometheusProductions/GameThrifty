@@ -6,32 +6,77 @@ GameThrifty
 
 ## Project Description
 
-Video Game discount search engine.
+Search engines that look for discounts on video games through predetermined digital storefronts. 
 
 ## API and Data Sample
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+This project will be utilizing CheapShark's public API found at https://apidocs.cheapshark.com/?version=latest#c6e4678d-7ff0-ebd4-59c1-b4d0fb3dac87
+
+
+
+`{
+    "info": {
+        "title": "Front Mission Evolved",
+        "steamAppID": "43000"
+    },
+    "cheapestPriceEver": {
+        "price": "2.49",
+        "date": 1403200659
+    },
+    "deals": [
+        {
+            "storeID": "27",
+            "dealID": "EjEoWVBCg8GF4otG7dyzw5os2Wspej92jyc5yNNsckw%3D",
+            "price": "8.99",
+            "retailPrice": "9.99",
+            "savings": "10.010010"
+        },
+        {
+            "storeID": "1",
+            "dealID": "%2BUL8j2SPTUS4qzVyudPy%2FxU%2BsLrFFSno4nMADBI2fd0%3D",
+            "price": "9.99",
+            "retailPrice": "9.99",
+            "savings": "0.000000"
+        },
+        {
+            "storeID": "3",
+            "dealID": "F1wYY%2B9ujpsFFQv1eYzcmAhx077mYdojSSNGNmWScHk%3D",
+            "price": "9.99",
+            "retailPrice": "9.99",
+            "savings": "0.000000"
+        },
+        {
+            "storeID": "11",
+            "dealID": "HknS8P%2B736Uq70O9e8j1j1qF4js5SHpiBtssnoas3As%3D",
+            "price": "9.99",
+            "retailPrice": "9.99",
+            "savings": "0.000000"
+        }
+    ]
+}`
 
 ## Wireframes
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+
+
 
 ### MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Find and use external api -
+- Render suggestions based on user input -
+- Allow user to choose from relevent results if their input returns any -
+- Allow user to click on a title of their choice for more information - 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Allow the user to subscribe to email alerts on games of their choice 
+- Account creation
 
 ## Project Schedule
 
@@ -50,7 +95,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+https://imgur.com/a/U6dUp0Y
 
 ## Timeframes
 
