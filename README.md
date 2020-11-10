@@ -10,11 +10,10 @@ Search engines that look for discounts on video games through predetermined digi
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 This project will be utilizing CheapShark's public API found at https://apidocs.cheapshark.com/?version=latest#c6e4678d-7ff0-ebd4-59c1-b4d0fb3dac87
 
 
-
+JSON Snippet:
 `{
     "info": {
         "title": "Front Mission Evolved",
@@ -60,6 +59,7 @@ This project will be utilizing CheapShark's public API found at https://apidocs.
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
+https://wireframe.cc/pro/pp/4198c01b5392881
 
 
 ### MVP/PostMVP
@@ -105,9 +105,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| HTML & CSS | H | 8hrs| --- | --- |
+| JavaScript | H | 16 hrs| --- | --- |
+| Search Results | M | 8 hrs| --- | --- |
+| Cleaning up Code | L | 8 hrs| --- | --- |
+| Total | --- | --- | --- | --- |
 
 ## Code Snippet
 
@@ -120,4 +122,15 @@ function reverse(string) {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+
+Version 1.0
+	- Documentation Creation
+	- Start of Log
+	
+Version 1.0.1
+	- Added Estimated Time Requried for Project Modules
+	- Added JSON sample from CheapShark API
+	- Added Links to the following:
+		- Wireframes
+		- Matrix PNG
+		- API
