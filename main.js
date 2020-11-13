@@ -36,9 +36,9 @@ const formsubmit = async (e) => {
   });
 }
 
-const form = document.querySelector('.searchResults')
+const form = document.querySelector('.titleResults')
 form.addEventListener('submit', formsubmit)
 
 const releventResults=document.querySelector('.releventResults')
 
-document.getElementById(".searchResults").value;
+document.getElementById(".titleResults").value;
