@@ -1,8 +1,20 @@
+
+
 *{
   /* border: 1px solid purple;
   padding: 10px; */
   font-family: 'Nova Slim', cursive;
 }
+
+html {
+  background:#ecf0f1;
+}
+canvas {
+  display:block;
+  margin:auto;
+  background:#ecf0f1;
+}
+
 
 .titleresults .parent{
   display: grid;
@@ -40,8 +52,10 @@ body{
   overflow: hidden;
   border-radius: px;
 }
-.topDeal h2{
-  color
+.topDeal{
+  color: aliceblue;
+  text-shadow: 1px 0px 5px black;
+
 }
 h1{
   text-align: center;
@@ -71,8 +85,9 @@ h2{
   align-items: center;
 }
 img {
-  max-width: 270px;
+  min-width: 135px;
   align-items: center;
   max-width: 270px;
-  border-radius: 360px;
+  border-radius: 720px;
+  background-color:rgb(108, 193, 199)
 }
