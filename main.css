@@ -101,3 +101,10 @@ img {
   border-radius: 720px;
   background-color:rgb(108, 193, 199)
 }
+h3{
+  max-width: 540px;
+  min-width: 135px;
+  display: flex;
+  color: rgb(101, 76, 76);
+  justify-content: space-around;
+}
