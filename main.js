@@ -114,8 +114,5 @@ const getCheapestdeal = async (e) => {
 
 
 dropDown.addEventListener('change', getCheapestdeal)
-// document.getElementById(".searchResults").value;
-// Movie Database homework for clues on how to remove search results
-
 
 
